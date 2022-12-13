@@ -1,0 +1,9 @@
+<div class="pl-3" *ngIf="characters!=null; else espera">
+  <div class="row d-flex justify-content-start">
+    <div *ngFor="let ch of characters.results" class="col">
+      <app-characters [characters]="ch"></app-characters>
+    </div>
+  </div>
+</div>
+
+<ng-template #espera>Esperando datos....</ng-template>

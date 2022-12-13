@@ -8,6 +8,8 @@ import { CharactersComponent } from './characters/characters.component';
 import { AboutComponent } from './about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ElementsModule } from './elements/elements.module';
+import { DetailsComponent } from './details/details.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { ElementsModule } from './elements/elements.module';
     HomeComponent,
     CharactersComponent,
     AboutComponent,
+    DetailsComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
